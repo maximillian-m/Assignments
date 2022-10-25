@@ -1,0 +1,60 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+}
+.flip button {
+    padding: 20px;
+    border-radius: 30px;
+    background: orangered;
+    color: white;
+    border: none;
+}
+.flip {
+    margin: 100px 100px;
+ }
+ .flip button:hover {
+    background: white;
+    color: black;
+ }
+.main {
+
+    width: 70vw;
+    height: 70vh;
+    /* background-color: red; */
+    margin: 100px auto;
+    display: grid;
+    grid-template-areas: 
+    'a a a b b'
+    'a a a b b'
+    'c c d d d'
+    'c c e e e';
+    gap: 20px;
+    grid-template-rows: 2fr 1fr 2fr 2fr
+}
+
+.itema {
+    background: orangered;
+    grid-area: a;
+
+}
+.itemb {
+    background: orange ;
+    grid-area: b;
+}
+.itemc {
+    background: green;
+    grid-area: c;
+}
+.itemd {
+    background: steelblue;
+    grid-area: d;
+}
+.iteme {
+    background: steelblue;
+    grid-area: e;
+}

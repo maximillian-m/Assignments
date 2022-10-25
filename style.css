@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+/* font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: 
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 25px;
+}
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    margin: 30px 0;
+    
+}
+
+p {
+    line-height: 1.5;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+ .flip button {
+    color: white;
+    background: linear-gradient(hsl(179, 100%, 13%),white)
+
+ }
+ .flip {
+    margin: auto 100px;
+ }
+ .flip button:hover {
+    background: white;
+    color: black;
+ }
+main {
+
+    max-width: 1440px;
+    margin: 250px auto;
+    display: flex;
+    
+
+}
+
+.firstbox {
+    background: hsl(31, 77%, 52%);
+    width: 33.33%;
+    padding: 80px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.Secondbox{
+    background: hsl(184, 100%, 22%);
+    width: 33.33%;
+    padding: 80px;
+}
+.thirdbox {
+    background: hsl(179, 100%, 13%);
+    width: 33.33%;
+    padding: 80px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+ Button {
+    color:hsl(0, 0%, 95%);
+    width: 200px; 
+    padding: 20px;
+    border:hsl(0, 0%, 95%) 2px solid;
+    border-radius: 30px;
+    margin-top: 80px;
+    font-size: 20px;
+ }
+
+ .btn1:hover {
+
+    background: white;
+    cursor: pointer;
+    color: hsl(31, 77%, 52%);
+
+ }.btn2:hover {
+
+    background: white;
+    cursor: pointer;
+    color: hsl(184, 100%, 22%);
+
+ }
+ .btn3:hover {
+
+    background: white;
+    cursor: pointer;
+    color: hsl(179, 100%, 13%);
+
+ }
+
+ .btn1 {
+    background: hsl(31, 77%, 52%);
+ }
+.btn2 {
+    background:  hsl(184, 100%, 22%);
+}
+.btn3 {
+    background: hsl(179, 100%, 13%);
+}
+
+@media (max-width: 1440px) {
+    main { 
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        
+    
+    
+    }
+    .firstbox, .Secondbox, .thirdbox {
+        width: 100%;
+        padding: 50px;
+
+    }
+    .firstbox {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+    .thirdbox {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 0;;
+    }
+}
